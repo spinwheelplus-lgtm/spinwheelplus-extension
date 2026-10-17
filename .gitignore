@@ -4,6 +4,7 @@ release/
 build/
 out/
 *.zip
+!zip/*.zip
 *.crx
 *.pem
 key.pem

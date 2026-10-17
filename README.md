@@ -12,13 +12,13 @@ Chrome and Edge open a side panel. Firefox opens a sidebar. Each store gets its 
 
 ## Download a packed build
 
-Version 1.2.2. No build step. Unzip the file, then load that folder.
+Version 1.2.2 is in the [`zip`](zip) folder. No build step. Unzip the file, then load that folder.
 
 | File | Browser |
 | --- | --- |
-| [spinwheelplus-chrome.zip](https://github.com/spinwheelplus-lgtm/spinwheelplus-extension/releases/download/v1.2.2/spinwheelplus-chrome.zip) | Chrome |
-| [spinwheelplus-edge.zip](https://github.com/spinwheelplus-lgtm/spinwheelplus-extension/releases/download/v1.2.2/spinwheelplus-edge.zip) | Edge |
-| [spinwheelplus-firefox.zip](https://github.com/spinwheelplus-lgtm/spinwheelplus-extension/releases/download/v1.2.2/spinwheelplus-firefox.zip) | Firefox |
+| [spinwheelplus-chrome.zip](zip/spinwheelplus-chrome.zip) | Chrome |
+| [spinwheelplus-edge.zip](zip/spinwheelplus-edge.zip) | Edge |
+| [spinwheelplus-firefox.zip](zip/spinwheelplus-firefox.zip) | Firefox |
 
 Load the unzipped folder:
 
