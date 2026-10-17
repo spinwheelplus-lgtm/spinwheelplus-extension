@@ -1,0 +1,15 @@
+node_modules/
+dist/
+release/
+build/
+out/
+*.zip
+*.crx
+*.pem
+key.pem
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.DS_Store
+Thumbs.db

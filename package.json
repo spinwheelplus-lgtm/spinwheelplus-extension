@@ -1,0 +1,52 @@
+{
+  "name": "spinwheelplus-extension",
+  "private": true,
+  "version": "1.2.2",
+  "author": "SpinWheelPlus <contact@spinwheelplus.com>",
+  "engines": {
+    "node": ">=22.23.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/pack.mjs chrome --apply-only",
+    "icons": "node scripts/generate-icons.mjs",
+    "pack": "npm run pack:all",
+    "pack:chrome": "npm run build && node scripts/pack.mjs chrome",
+    "pack:edge": "npm run build && node scripts/pack.mjs edge",
+    "pack:firefox": "npm run build && node scripts/pack.mjs firefox",
+    "pack:source": "node scripts/pack.mjs source",
+    "pack:all": "npm run build && node scripts/pack.mjs chrome && node scripts/pack.mjs edge && node scripts/pack.mjs firefox && node scripts/pack.mjs chrome --apply-only"
+  },
+  "dependencies": {
+    "@tiptap/extension-document": "^3.22.4",
+    "@tiptap/extension-history": "^3.22.4",
+    "@tiptap/extension-image": "^3.22.4",
+    "@tiptap/extension-paragraph": "^3.22.4",
+    "@tiptap/extension-placeholder": "^3.22.4",
+    "@tiptap/extension-text": "^3.22.4",
+    "@tiptap/react": "^3.22.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.544.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.5.0",
+    "three": "^0.175.0",
+    "vaul": "^1.1.2",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/chrome": "^0.1.24",
+    "@types/node": "^20.19.17",
+    "@types/react": "^18.3.24",
+    "@types/react-dom": "^18.3.7",
+    "@types/three": "^0.175.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.6"
+  }
+}
