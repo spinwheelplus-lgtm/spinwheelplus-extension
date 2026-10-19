@@ -71,7 +71,7 @@ Single target: `npm run pack:chrome`, `npm run pack:edge`, or `npm run pack:fire
 
 `manifest.json` sits at the zip root. Zip entry paths use `/`. Firefox Add-ons rejects a zip made with PowerShell `Compress-Archive` because those entries use backslashes.
 
-Listing copy: `STORE_LISTING.md`, `STORE_LISTING-edge.md`, `STORE_LISTING-firefox.md`.
+Listing copy: `STORE_LISTING-chrome.md`, `STORE_LISTING-edge.md`, `STORE_LISTING-firefox.md`.
 
 ## Firefox source review
 
