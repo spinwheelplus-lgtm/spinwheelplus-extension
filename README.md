@@ -97,7 +97,7 @@ Compare `release/spinwheelplus-firefox.zip` with the store file. Unpacked output
 
 No user data collection. Draws use `crypto.getRandomValues()`. Chrome and Edge permissions are `sidePanel` and `storage`. Firefox permission is `storage` only (`sidebar_action` is in `manifests/firefox.json`).
 
-Policy: https://spinwheelplus.com/privacy
+Policy: https://spinwheelplus.com/legal/privacy-policy
 
 Support: contact@spinwheelplus.com
 
