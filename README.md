@@ -1,6 +1,8 @@
 # SpinWheelPlus browser extension
 
-One UI. Three store packs (Manifest V3). The wheel runs inside the extension. It does not iframe spinwheelplus.com.
+One UI. Three store packs (Manifest V3). The wheel runs inside the extension. It does not load the website in a frame.
+
+The website is [spinwheelplus.com](https://spinwheelplus.com/).
 
 | Store | Install |
 | --- | --- |
