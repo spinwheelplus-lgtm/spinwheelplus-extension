@@ -2,7 +2,7 @@ import { fillTemplate } from "@/lib/i18n/locale";
 
 const TEAM_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const DEFAULT_TEAM_PREFIX =
-  /^(?:Team|Đội|Equipo|Equipe|Squadra|チーム|팀) ([A-Z])$/u;
+  /^(?:Team|Đội|Equipo|Equipe|Squadra|チーム|팀|ทีม|Joukkue|Команда) ([A-Z])$/u;
 const DEFAULT_TEAM_SUFFIX = /^([A-Z]) (?:组|組)$/u;
 
 export const buildDefaultTeamName = (index: number): string => {

@@ -1,4 +1,4 @@
-# Packed builds (1.2.2)
+# Packed builds (1.2.3)
 
 Unzip the file for your browser, then load that folder.
 

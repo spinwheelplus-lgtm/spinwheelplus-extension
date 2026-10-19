@@ -1,7 +1,7 @@
 {
   "name": "spinwheelplus-extension",
   "private": true,
-  "version": "1.2.2",
+  "version": "1.2.3",
   "author": "SpinWheelPlus <contact@spinwheelplus.com>",
   "engines": {
     "node": ">=22.23.0"

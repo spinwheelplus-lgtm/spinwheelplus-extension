@@ -93,7 +93,7 @@ export const RandomTeamTeamCard = ({
           )}
           aria-hidden
         >
-          {shownName.replace(/^(?:Team|Đội|Equipo|Equipe|Squadra|チーム|팀)\s+/u, "").charAt(0) || "T"}
+          {shownName.replace(/^(?:Team|Đội|Equipo|Equipe|Squadra|チーム|팀|ทีม|Joukkue|Команда)\s+/u, "").charAt(0) || "T"}
         </span>
         <div className="min-w-0 flex-1">
           {editing ? (

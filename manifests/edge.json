@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "SpinWheelPlus",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Spin a wheel or pick names, numbers, dice, coin, yes/no, shuffle, and teams in Microsoft Edge's side panel. Local and free.",
   "homepage_url": "https://spinwheelplus.com",
   "action": {

@@ -13,6 +13,9 @@ export const APP_LOCALES = [
   "nl",
   "zh-Hans",
   "zh-Hant",
+  "th",
+  "fi",
+  "uk",
 ] as const;
 
 export type AppLocale = (typeof APP_LOCALES)[number];
@@ -33,6 +36,9 @@ export const LOCALE_NATIVE_NAME: Record<AppLocale, string> = {
   nl: "Nederlands",
   "zh-Hans": "简体中文",
   "zh-Hant": "繁體中文",
+  th: "ภาษาไทย",
+  fi: "Suomi",
+  uk: "Українська",
 };
 
 /**
@@ -50,8 +56,11 @@ export const MENU_LOCALES = [
   "de",
   "ko",
   "vi",
+  "th",
   "it",
+  "uk",
   "nl",
+  "fi",
 ] as const satisfies readonly AppLocale[];
 
 /** Date and relative-time formatting. Add a row with a new locale. */
@@ -68,6 +77,9 @@ export const LOCALE_BCP47: Record<AppLocale, string> = {
   nl: "nl-NL",
   "zh-Hans": "zh-CN",
   "zh-Hant": "zh-TW",
+  th: "th-TH",
+  fi: "fi-FI",
+  uk: "uk-UA",
 };
 
 const hasChromeStorage = (): boolean =>

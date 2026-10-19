@@ -12,7 +12,7 @@ Chrome and Edge open a side panel. Firefox opens a sidebar. Each store gets its 
 
 ## Download a packed build
 
-Version 1.2.2 is in the [`zip`](zip) folder. No build step. Unzip the file, then load that folder.
+Version 1.2.3 is in the [`zip`](zip) folder. No build step. Unzip the file, then load that folder.
 
 | File | Browser |
 | --- | --- |
